@@ -1,0 +1,232 @@
+body {
+    background-color: #282069;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+h4 {
+    font-size: 125%;
+   padding: 0 24px;
+}
+h5 {
+    font-size: 1.5rem;
+}
+h6 {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+h5, 
+h6 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+a {
+   margin: auto;
+   padding: 0 8px;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+li {
+    text-align: center;
+    display: flex;   
+    font-size: 90%;
+    font-weight: bold;
+    background-color: orange;
+    box-shadow: 0px 0px 0px 2px ,
+                6px 6px 0px 0px darkorange;
+    border-radius: 10px;
+}
+
+button {
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: orange;
+    box-shadow: 0px 0px 0px 2px ,
+                6px 6px 0px 0px darkorange;
+
+}
+
+button:hover,
+li:hover {
+    background-color: coral;
+    box-shadow: 0px 0px 0px 2px ,
+                6px 6px 0px 0px orange;
+}
+
+.header,
+.footer {
+    background-color: mediumpurple	;
+}
+
+.info-box,
+.top-content-p,
+.quote {
+    color: black;
+    font-weight: bolder;
+    box-shadow: 0px 0px 0px 2px ,
+                8px 8px 0px 0px mediumpurple;
+    background-color: #D791DA;
+    border-radius: 30px;
+    padding: 10px 30px;
+
+}
+.card, 
+.quote,
+.top-content-p
+{
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: inline-block;
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+}
+.header > div {
+    background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+
+}
+.cards > div {
+    padding: 0px 16px;
+}
+
+.header {
+    display: flex;
+    padding-right: 16px;
+}
+.hh{flex:3}
+.totb{flex:4}
+.b-t{flex:2}
+
+.content > div {
+    padding: 24px 5%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.top-content {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+    justify-content: space-evenly; 
+}
+
+.top-content > div {
+    padding: 10px 30px;
+}
+
+.welcome-header{
+    flex: 1;
+    min-width: 250px;
+    max-width: 500px;
+    text-align: center;
+}
+
+.welcome-header h3 {
+    margin-top: 0;
+}
+
+.top-content-p {
+    flex: 3;
+    margin: auto;
+    min-width: 250px;
+    max-width: 600px;
+    text-indent: 30px;
+    padding: 15px 30px;
+}
+
+.cards {
+    background-image: url('https://plus.unsplash.com/premium_vector-1689096786337-b3c1c38c8849?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGFsbG93ZWVufGVufDB8fDB8fHww');
+    text-align: center;
+}
+.cards-header{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: -8px auto 16px auto;
+    max-width: 300px;
+}
+
+.cards > div {
+    display: flex;
+    gap: 16px;
+    justify-content: center;  
+    flex-wrap: wrap;
+}
+
+.card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, 
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: lavender;
+    min-width: 250px;
+    max-width: 300px
+}
+
+
+.card > img{
+    margin: 5% 5% 0 5%;
+    max-width: 60%;
+    border-radius: 10px;
+    border: solid 2px mediumpurple;
+    padding: 5px;
+    background-color: lavender;
+}
+.profiles-detail > h5,
+.profiles-detail > h6 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.profiles-detail {
+    margin: 0;
+}
+.quote-container{
+    background-color: #282069;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    text-align: center;
+}
+
+.action-content {
+    background-image: url('https://plus.unsplash.com/premium_vector-1689096784238-135c362398aa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGhhbGxvd2VlbnxlbnwwfHwwfHx8MA%3D%3D');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 16px;
+}
+
+.call-to-action {
+    min-width: 300px;
+}
+
+.footer {
+    text-align: center;
+}
